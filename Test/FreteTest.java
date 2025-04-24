@@ -9,6 +9,7 @@ public class FreteTest {
 
     @Test
     void testCalcularFrete() {
+
         assertEquals(15.0, freteCalculator.calcularFrete(10, 50));
     }
 

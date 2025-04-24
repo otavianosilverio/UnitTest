@@ -1,14 +1,15 @@
+// Utilização do Framework Junit
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculadoraTest {
     // arrange
     private final Calculadora calculadora = new Calculadora();
-    private final FreteCalculator freteCalculator = new FreteCalculator();
 
     @Test
     void testSomar() {
-        assertEquals(4, calculadora.somar(2, 2));
+        assertEquals(5, calculadora.somar(2, 3));
+
     }
 
     @Test
